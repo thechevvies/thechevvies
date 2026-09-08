@@ -1,8 +1,8 @@
 body {
   font-family: 'Rock Salt', cursive;
-  /*background-color: #000; */
+  background-color: #000; 
 
-  color: #000;
+  color: #fff;
   text-align: center;
 
   background: url("images/album.jpeg") no-repeat center center fixed;
