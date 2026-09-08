@@ -1,1 +1,54 @@
+body {
+  font-family: 'Rock Salt', cursive;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
 
+a {
+  color: #ff6600;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+header img {
+  width: 300px;   /* adjust size as needed */
+  margin-bottom: 10px;
+}
+
+nav {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+nav a {
+  margin: 0 12px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #ff6600;
+}
+
+nav a:hover {
+  color: #ffa366;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #fff;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 0.9em;
+  color: #aaa;
+}
