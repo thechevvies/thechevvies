@@ -1,7 +1,6 @@
 
 <!DOCTYPE html>
 <html>
-  background = img src="images/album.jpeg"
 <head>
   <title>The Chevvies</title>
   <link rel="stylesheet" href="style.css">
@@ -11,6 +10,31 @@
   <img src="images/logo.jpeg" alt="The Chevvies Logo">
 </header>
   
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    background: url("images/album.jpeg") no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
+    color: #fff;
+    text-align: center;
+    font-family: 'Rock Salt', cursive;
+  }
+
+  /* 50% opacity overlay */
+  body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5); /* 0.5 = 50% opacity */
+    pointer-events: none;
+    z-index: -1;
+  }
+</style>
 <body>
 <nav>
   <a href="index.html">Home</a>
